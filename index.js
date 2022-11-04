@@ -1,5 +1,6 @@
 const API = "  http://localhost:8000/products";
 console.log(API);
+console.log(API);
 
 //переменные для инпутов: добавление товара
 let title = document.querySelector("#title");
