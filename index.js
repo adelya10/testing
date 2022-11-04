@@ -165,6 +165,7 @@ document.addEventListener("click", (e) => {
 //   }).then(() => render());
 // }
 
+//edit
 document.addEventListener("click", function (e) {
   if (e.target.classList.contains("btn-edit")) {
     let id = e.target.id;
@@ -199,6 +200,7 @@ editSaveBtn.addEventListener("click", function () {
   };
   saveEdit(editProduct, id);
 });
+
 function saveEdit(edittedProduct, id) {
   fetch(`${API}/${id}`, {
     method: "PATCH",
@@ -219,5 +221,7 @@ search.addEventListener("input", () => {
 });
 
 
+
 // вудн;
+
 
