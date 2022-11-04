@@ -1,4 +1,5 @@
 const API = "  http://localhost:8000/products";
+console.log(API);
 
 //переменные для инпутов: добавление товара
 let title = document.querySelector("#title");
@@ -216,4 +217,4 @@ search.addEventListener("input", () => {
   render();
 });
 
-вудн;
+// вудн;
